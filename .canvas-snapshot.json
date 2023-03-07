@@ -99,14 +99,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/java-collections-framework?module_item_id=543986\">Review the Java Collections Framework Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 578,
+          "id": "578",
           "text": "Data structures",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 1252,
+          "id": "1252",
           "text": "Data Structures",
           "comments": "",
           "comments_html": "",
@@ -128,53 +128,37 @@
       "position": null,
       "question_name": "Multiple Choice Question",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
+      "question_text": "<p>Which of these is <strong>not</strong> part of the <code>Collections</code> interface?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "",
       "correct_comments_html": "",
       "incorrect_comments_html": "",
-      "neutral_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/java-collections-framework?module_item_id=543986\">Review the Java Collections Framework Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 8976,
+          "id": 3958,
           "text": "",
-          "html": "<p>O(n)</p>",
+          "html": "<p>HashMap</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
+          "comments_html": "<p>Correct! The <code>HashMap</code> class implements the <code>Map</code> interface; not the\n<code>Collections</code> interface.</p>",
           "weight": 100.0
         },
         {
-          "id": 9741,
+          "id": 405,
           "text": "",
-          "html": "<p>O(1)</p>",
+          "html": "<p>ArrayList</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
+          "comments_html": "<p>Not quite. The <code>ArrayList</code> class implements the <code>List</code> interface, which also\nimplements the <code>Collection</code> interface.</p>",
           "weight": 0.0
         },
         {
-          "id": 6931,
+          "id": 6878,
           "text": "",
-          "html": "<p>O(n²)</p>",
+          "html": "<p>HashSet</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 6675,
-          "text": "",
-          "html": "<p>O(log n)</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 2024,
-          "text": "",
-          "html": "<p>I don't know</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "comments_html": "<p>Not quite. The <code>HashSet</code> class implements the <code>Set</code> interface, which also\nimplements the <code>Collection</code> interface</p>",
           "weight": 0.0
         }
       ],
@@ -203,58 +187,58 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/list?module_item_id=543987\">Review the List Lesson</a></li><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/set?module_item_id=543989\">Review the Set Lesson</a></li><li><a href=\"\">Review the Map Lesson</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 6199,
+          "id": "6199",
           "text": "An interface in Java that implements the Collection interface and provides a\nway to store an ordered collection and allows duplicate elements.",
           "left": "An interface in Java that implements the Collection interface and provides a\nway to store an ordered collection and allows duplicate elements.",
           "right": "List",
           "comments": "",
           "comments_html": "",
-          "match_id": 6297
+          "match_id": 3813
         },
         {
-          "id": 8962,
+          "id": "8962",
           "text": "An implementation of the Set interface.",
           "left": "An implementation of the Set interface.",
           "right": "HashSet",
           "comments": "",
           "comments_html": "",
-          "match_id": 1558
+          "match_id": 9044
         },
         {
-          "id": 8027,
+          "id": "8027",
           "text": "An implementation of the Map interface.",
           "left": "An implementation of the Map interface.",
           "right": "HashMap",
           "comments": "",
           "comments_html": "",
-          "match_id": 7625
+          "match_id": 8480
         },
         {
-          "id": 9278,
+          "id": "9278",
           "text": "An interface in Java that implements the Collection interface and does not\nallow duplicates.",
           "left": "An interface in Java that implements the Collection interface and does not\nallow duplicates.",
           "right": "Set",
           "comments": "",
           "comments_html": "",
-          "match_id": 9018
+          "match_id": 3806
         },
         {
-          "id": 4023,
+          "id": "4023",
           "text": "An implementation of the List interface.",
           "left": "An implementation of the List interface.",
           "right": "ArrayList",
           "comments": "",
           "comments_html": "",
-          "match_id": 7083
+          "match_id": 7549
         },
         {
-          "id": 8125,
+          "id": "8125",
           "text": "An interface that stores a pair of values.",
           "left": "An interface that stores a pair of values.",
           "right": "Map",
           "comments": "",
           "comments_html": "",
-          "match_id": 4388
+          "match_id": 9807
         }
       ],
       "variables": null,
@@ -264,27 +248,27 @@
       "matches": [
         {
           "text": "List",
-          "match_id": 6297
+          "match_id": 3813
         },
         {
           "text": "HashSet",
-          "match_id": 1558
+          "match_id": 9044
         },
         {
           "text": "HashMap",
-          "match_id": 7625
+          "match_id": 8480
         },
         {
           "text": "Set",
-          "match_id": 9018
+          "match_id": 3806
         },
         {
           "text": "ArrayList",
-          "match_id": 7083
+          "match_id": 7549
         },
         {
           "text": "Map",
-          "match_id": 4388
+          "match_id": 9807
         }
       ],
       "matching_answer_incorrect_matches": ""
@@ -480,6 +464,71 @@
           "text": "False",
           "weight": 100,
           "id": 1104
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "id": 305837,
+      "quiz_id": 44757,
+      "quiz_group_id": null,
+      "assessment_question_id": 526024,
+      "position": null,
+      "question_name": "Multiple Choice Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>How would you construct a <code>HashMap</code> of unique integer IDs to the name of a\nproduct in a store?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/6677/pages/map?module_item_id=543990\">Review the Map Lesson</a></li></ul><p></p>",
+      "answers": [
+        {
+          "id": 4051,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"nc\">HashMap</span><span class=\"o\">&lt;</span><span class=\"nc\">Integer</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">&gt;</span> <span class=\"n\">products</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HashMap</span><span class=\"o\">&lt;</span><span class=\"nc\">Integer</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">&gt;();</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 2150,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"nc\">HashMap</span><span class=\"o\">(</span><span class=\"nc\">Integer</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">)</span> <span class=\"n\">products</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HashMap</span><span class=\"o\">(</span><span class=\"nc\">Integer</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">);</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 9306,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"nc\">HashMap</span><span class=\"o\">&lt;</span><span class=\"kt\">int</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">&gt;</span> <span class=\"n\">products</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HashMap</span><span class=\"o\">&lt;</span><span class=\"kt\">int</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">&gt;();</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 7645,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"nc\">HashMap</span><span class=\"o\">&lt;&gt;</span> <span class=\"n\">products</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HashMap</span><span class=\"o\">&lt;</span><span class=\"kt\">int</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">&gt;;</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
+        },
+        {
+          "id": 6846,
+          "text": "",
+          "html": "<div class=\"highlight\"><pre class=\"highlight java\"><code><span class=\"nc\">HashMap</span><span class=\"o\">&lt;</span><span class=\"nc\">Integer</span><span class=\"o\">,</span> <span class=\"nc\">String</span><span class=\"o\">&gt;</span> <span class=\"n\">products</span> <span class=\"o\">=</span> <span class=\"k\">new</span> <span class=\"nc\">HashMap</span><span class=\"o\">();</span>\n</code></pre></div>",
+          "comments": "",
+          "comments_html": "",
+          "weight": 0.0
         }
       ],
       "variables": null,
