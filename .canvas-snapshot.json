@@ -1,7 +1,7 @@
 {
   "quiz": {
     "id": 44757,
-    "title": "Quiz 1 - Data Structures",
+    "title": "Quiz 2 - Data Structures",
     "html_url": "https://learning.flatironschool.com/courses/6677/quizzes/44757",
     "mobile_url": "https://learning.flatironschool.com/courses/6677/quizzes/44757?force_user=1&persist_headless=1",
     "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"java-mod-3-data-structures-quiz\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/java-mod-3-data-structures-quiz/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Note any answers that were marked incorrect,\nso you can study the relevant material and try this quiz again.</p>",
@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 7,
-    "points_possible": 7.0,
+    "question_count": 8,
+    "points_possible": 8.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 20002,
     "show_correct_answers_last_attempt": true,
-    "version_number": 4,
+    "version_number": 5,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -193,7 +193,7 @@
           "right": "List",
           "comments": "",
           "comments_html": "",
-          "match_id": 3813
+          "match_id": 2759
         },
         {
           "id": "8962",
@@ -202,7 +202,7 @@
           "right": "HashSet",
           "comments": "",
           "comments_html": "",
-          "match_id": 9044
+          "match_id": 9420
         },
         {
           "id": "8027",
@@ -211,7 +211,7 @@
           "right": "HashMap",
           "comments": "",
           "comments_html": "",
-          "match_id": 8480
+          "match_id": 8826
         },
         {
           "id": "9278",
@@ -220,7 +220,7 @@
           "right": "Set",
           "comments": "",
           "comments_html": "",
-          "match_id": 3806
+          "match_id": 4105
         },
         {
           "id": "4023",
@@ -229,7 +229,7 @@
           "right": "ArrayList",
           "comments": "",
           "comments_html": "",
-          "match_id": 7549
+          "match_id": 7273
         },
         {
           "id": "8125",
@@ -238,7 +238,7 @@
           "right": "Map",
           "comments": "",
           "comments_html": "",
-          "match_id": 9807
+          "match_id": 8362
         }
       ],
       "variables": null,
@@ -248,27 +248,27 @@
       "matches": [
         {
           "text": "List",
-          "match_id": 3813
+          "match_id": 2759
         },
         {
           "text": "HashSet",
-          "match_id": 9044
+          "match_id": 9420
         },
         {
           "text": "HashMap",
-          "match_id": 8480
+          "match_id": 8826
         },
         {
           "text": "Set",
-          "match_id": 3806
+          "match_id": 4105
         },
         {
           "text": "ArrayList",
-          "match_id": 7549
+          "match_id": 7273
         },
         {
           "text": "Map",
-          "match_id": 9807
+          "match_id": 8362
         }
       ],
       "matching_answer_incorrect_matches": ""
